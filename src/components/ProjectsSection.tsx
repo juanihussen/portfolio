@@ -47,7 +47,7 @@ export default function ProjectsSection() {
                     tags: project.tags,
                     content: project.content,
                     url: project.url,
-                    image: project.title === "Trust Group" ? "/trust-landing.png" : undefined,
+                    image: project.title === "Trust Group" ? "/trust-landing.png" : project.title === "Junior Survival Guide" ? "/miniatura-guia-junior.png" : undefined,
                   })
                 }
                 className="card p-6 cursor-pointer group transition-all duration-300"

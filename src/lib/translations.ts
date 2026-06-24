@@ -74,6 +74,14 @@ const t = {
     },
     projectsList: [
       {
+        title: "Junior Survival Guide",
+        desc: "Guía interactiva para desarrolladores junior con recursos, tips y herramientas para sobrevivir y crecer en la industria tech.",
+        url: "https://junior-survival-guide.vercel.app",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        hoverDesc: "Guía interactiva para devs junior",
+        content: `**Junior Survival Guide** es una guía interactiva diseñada para ayudar a desarrolladores junior a navegar los primeros pasos en la industria tech. Incluye recursos, consejos prácticos, herramientas recomendadas y una hoja de ruta para crecer profesionalmente.\n\nEl proyecto está construido con **Next.js**, **TypeScript** y **Tailwind CSS**, desplegado en **Vercel** para un rendimiento óptimo y una experiencia de usuario fluida.`,
+      },
+      {
         title: "Trust Group",
         desc: "Sitio web profesional con panel de administración y autenticación para un estudio de arquitectura.",
         url: "https://trustgrouparq.com",
@@ -202,6 +210,14 @@ const t = {
       headingAccent: "built",
     },
     projectsList: [
+      {
+        title: "Junior Survival Guide",
+        desc: "Interactive guide for junior developers with resources, tips, and tools to survive and grow in the tech industry.",
+        url: "https://junior-survival-guide.vercel.app",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+        hoverDesc: "Interactive guide for junior devs",
+        content: `**Junior Survival Guide** is an interactive guide designed to help junior developers navigate their first steps in the tech industry. It includes resources, practical tips, recommended tools, and a roadmap for professional growth.\n\nThe project is built with **Next.js**, **TypeScript**, and **Tailwind CSS**, deployed on **Vercel** for optimal performance and a smooth user experience.`,
+      },
       {
         title: "Trust Group",
         desc: "Professional website with admin panel and authentication for an architecture firm.",

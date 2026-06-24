@@ -46,8 +46,8 @@ export default function ProjectsSection() {
                     description: project.desc,
                     tags: project.tags,
                     content: project.content,
-                    url: project.title === "Trust Group" || project.title === "Trust Group" ? "https://trustgrouparq.com" : undefined,
-                    image: project.title === "Trust Group" || project.title === "Trust Group" ? "/trust-landing.png" : undefined,
+                    url: project.url,
+                    image: project.title === "Trust Group" ? "/trust-landing.png" : undefined,
                   })
                 }
                 className="card p-6 cursor-pointer group transition-all duration-300"

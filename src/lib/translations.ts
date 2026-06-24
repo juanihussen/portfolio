@@ -76,6 +76,7 @@ const t = {
       {
         title: "Trust Group",
         desc: "Sitio web profesional con panel de administración y autenticación para un estudio de arquitectura.",
+        url: "https://trustgrouparq.com",
         tags: ["Next.js", "Open Code", "AI", "PostgreSQL", "Auth"],
         hoverDesc: "Landing profesional con panel de administración",
         content: `Desarrollé este sitio web con el objetivo estratégico de potenciar la presencia digital de la empresa, permitiéndoles exponer sus proyectos de forma profesional y expandirse hacia nuevos clientes.\n\nPara garantizar su autonomía, implementé un panel de administración privado donde el equipo puede gestionar y añadir todo su contenido a gusto de manera intuitiva. La plataforma cuenta con formularios dinámicos para la carga de datos y un sistema robusto de autenticación que asegura la protección de toda la información.\n\nEste proyecto representa además un hito clave en mi perfil tecnológico, ya que fue mi primer desarrollo integrado con Inteligencia Artificial, utilizando específicamente Open Code como orquestador para optimizar los flujos de trabajo y la estructura del código.`,
@@ -83,6 +84,7 @@ const t = {
       {
         title: "Employee Management App",
         desc: "App de gestión de empleados y jornadas laborales desarrollada durante el bootcamp de NEORIS.",
+        url: "https://github.com/juanihussen/TP_React_Final",
         tags: ["React", "JavaScript", "CSS", "REST API"],
         hoverDesc: "CRUD completo de empleados con React y consumo de API REST",
         content: `Aplicación para gestionar empleados y sus jornadas laborales, desarrollada como proyecto final del módulo de React en el bootcamp de NEORIS.\n\n**Funcionalidades principales:**\n• CRUD completo de empleados (crear, listar, actualizar, eliminar)\n• Gestión de jornadas laborales asociadas a cada empleado\n• Consumo de API REST para persistencia de datos\n• Interfaz dinámica y responsive\n\n**Para ejecutar:**\n1. Clonar el repositorio\n2. Configurar las dependencias necesarias\n3. Ejecutar la aplicación junto con la API correspondiente\n\n**Nota importante:** Primero debe crearse un empleado antes de asignarle una jornada laboral.`,
@@ -90,6 +92,7 @@ const t = {
       {
         title: "API REST - NEORIS",
         desc: "API REST con Spring Boot para gestión de empleados y jornadas, parte del bootcamp de NEORIS.",
+        url: "https://github.com/juanihussen/TP2_ApiRest",
         tags: ["Java", "Spring Boot", "Maven", "H2", "REST API"],
         hoverDesc: "API REST con Spring Boot para gestión de empleados y jornadas",
         content: `API REST desarrollada con **Java** y **Spring Boot** para gestionar empleados y sus jornadas laborales, creada durante el bootcamp de NEORIS.\n\n**Endpoints principales:**\n• CRUD de empleados\n• CRUD de jornadas laborales asociadas a empleados\n• Base de datos H2 para desarrollo y pruebas\n\n**Tecnologías:** Java, Spring Boot, Maven, H2 Database, Postman\n\n**Instrucciones:**\n1. Clonar el repositorio\n2. Ejecutar la aplicación con Maven\n3. Usar el archivo de Postman incluido para probar los endpoints\n4. Primero crear un empleado, luego asignar jornadas`,
@@ -202,6 +205,7 @@ const t = {
       {
         title: "Trust Group",
         desc: "Professional website with admin panel and authentication for an architecture firm.",
+        url: "https://trustgrouparq.com",
         tags: ["Next.js", "Open Code", "AI", "PostgreSQL", "Auth"],
         hoverDesc: "Professional landing page with admin panel",
         content: `I developed this website with the strategic goal of enhancing the company's digital presence, allowing them to showcase their projects professionally and expand to new clients.\n\nTo ensure their autonomy, I implemented a private admin panel where the team can manage and add all their content intuitively. The platform features dynamic forms for data entry and a robust authentication system that ensures information protection.\n\nThis project also represents a key milestone in my tech profile, as it was my first development integrating Artificial Intelligence, specifically using Open Code as an orchestrator to optimize workflows and code structure.`,
@@ -209,6 +213,7 @@ const t = {
       {
         title: "Employee Management App",
         desc: "Employee and work shift management app developed during the NEORIS bootcamp.",
+        url: "https://github.com/juanihussen/TP_React_Final",
         tags: ["React", "JavaScript", "CSS", "REST API"],
         hoverDesc: "Complete employee CRUD with React and REST API consumption",
         content: `Application for managing employees and their work shifts, developed as the final project for the React module at the NEORIS bootcamp.\n\n**Main features:**\n• Complete employee CRUD (create, list, update, delete)\n• Work shift management associated with each employee\n• REST API consumption for data persistence\n• Dynamic and responsive interface\n\n**To run:**\n1. Clone the repository\n2. Install the necessary dependencies\n3. Run the application alongside the corresponding API\n\n**Important note:** An employee must be created first before assigning a work shift.`,
@@ -216,6 +221,7 @@ const t = {
       {
         title: "REST API - NEORIS",
         desc: "REST API with Spring Boot for employee and shift management, part of the NEORIS bootcamp.",
+        url: "https://github.com/juanihussen/TP2_ApiRest",
         tags: ["Java", "Spring Boot", "Maven", "H2", "REST API"],
         hoverDesc: "REST API with Spring Boot for employee and shift management",
         content: `REST API developed with **Java** and **Spring Boot** to manage employees and their work shifts, created during the NEORIS bootcamp.\n\n**Main endpoints:**\n• Employee CRUD\n• Work shift CRUD associated with employees\n• H2 database for development and testing\n\n**Technologies:** Java, Spring Boot, Maven, H2 Database, Postman\n\n**Instructions:**\n1. Clone the repository\n2. Run the application with Maven\n3. Use the included Postman file to test the endpoints\n4. First create an employee, then assign shifts`,

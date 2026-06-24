@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f5f0eb;
+  --color-cream-200: #efe8e0;
+  --color-vermilion: #e3512e;
+  --color-vermilion-200: #d04424;
+  --color-dark: #1a1a1a;
+  --color-muted: #6b6560;
+  --color-card: #ffffff;
+  --color-border: #e5ddd5;
+  --color-dot: #e5ddd5;
+  --color-inverse: #1a1a1a;
+}
+
+[data-theme="dark"] {
+  --color-cream: #0f172a;
+  --color-cream-200: #1e293b;
+  --color-dark: #e2e8f0;
+  --color-muted: #94a3b8;
+  --color-card: #1e293b;
+  --color-border: #334155;
+  --color-dot: #1e293b;
+  --color-inverse: #1e293b;
+}
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    background-image: radial-gradient(var(--color-dot) 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+    color: var(--color-dark);
+    overflow-x: hidden;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+  }
+
+  ::selection {
+    background-color: var(--color-vermilion);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .card {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .heading-xl {
+    font-size: clamp(4rem, 12vw, 10rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 0.9;
+    color: var(--color-dark);
+  }
+
+  .heading-lg {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    color: var(--color-vermilion);
+  }
+
+  .heading-sm {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+}

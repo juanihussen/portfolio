@@ -46,7 +46,7 @@ const t = {
         detailDesc: "",
       },
       {
-        company: "NEORIS",
+        company: "NEORIS - EPAM",
         role: "Bootcamp Full-Stack",
         period: "Sep 2024 — Nov 2024",
         hoverDesc:
@@ -55,6 +55,16 @@ const t = {
         image: "/certificado-neoris.png",
         content: `Bootcamp intensivo de **NEORIS** donde me formé como desarrollador Full-Stack, trabajando con tecnologías modernas tanto del frontend como del backend.\n\n**Módulos del bootcamp:**\n• **Frontend con React:** Desarrollo de aplicaciones web dinámicas con componentes, estados y consumo de APIs REST.\n• **Backend con Java y Spring Boot:** Creación de APIs REST robustas con arquitectura en capas, persistencia con H2 y buenas prácticas de desarrollo.\n• **Integración Full-Stack:** Conexión de aplicaciones React con APIs REST propias, manejo de datos y despliegue.\n\n**Proyectos realizados:**\n• **Employee Management App** — Aplicación React para gestión de empleados y jornadas laborales con consumo de API REST.\n• **API REST con Spring Boot** — Backend completo con endpoints CRUD para empleados y jornadas, documentado con Postman.`,
         detailDesc: "",
+      },
+      {
+        company: "Universidad Tecnológica Nacional",
+        role: "Tecnicatura en Programación",
+        period: "2022 — Presente",
+        hoverDesc:
+          "Cursando la tecnicatura en programación en la UTN Mar del Plata",
+        tags: ["C", "C++", "Java", "Python", "JavaScript", "SQL", "Git"],
+        content: `Desde **2022** curso la **Tecnicatura Universitaria en Programación** en la **Universidad Tecnológica Nacional** — Facultad Regional Mar del Plata. La carrera me brindó una base sólida en algoritmos, estructuras de datos, paradigmas de programación y desarrollo de software, sentando las bases para mi desempeño profesional como desarrollador.`,
+        detailDesc: "UTN · Mar del Plata",
       },
     ],
     projects: {
@@ -162,7 +172,7 @@ const t = {
         detailDesc: "",
       },
       {
-        company: "NEORIS",
+        company: "NEORIS - EPAM",
         role: "Full-Stack Bootcamp",
         period: "Sep 2024 — Nov 2024",
         hoverDesc:
@@ -171,6 +181,16 @@ const t = {
         image: "/certificado-neoris.png",
         content: `Intensive **NEORIS** bootcamp where I trained as a Full-Stack developer, working with modern technologies on both frontend and backend.\n\n**Bootcamp modules:**\n• **Frontend with React:** Development of dynamic web applications with components, state management, and REST API consumption.\n• **Backend with Java and Spring Boot:** Creation of robust REST APIs with layered architecture, H2 persistence, and development best practices.\n• **Full-Stack Integration:** Connecting React applications with custom REST APIs, data handling, and deployment.\n\n**Projects completed:**\n• **Employee Management App** — React application for managing employees and work shifts with REST API consumption.\n• **REST API with Spring Boot** — Complete backend with CRUD endpoints for employees and work shifts, documented with Postman.`,
         detailDesc: "",
+      },
+      {
+        company: "Universidad Tecnológica Nacional",
+        role: "Programming Degree",
+        period: "2022 — Present",
+        hoverDesc:
+          "Studying a programming degree at UTN Mar del Plata",
+        tags: ["C", "C++", "Java", "Python", "JavaScript", "SQL", "Git"],
+        content: `Since **2022** I have been studying the **University Degree in Programming** at the **Universidad Tecnológica Nacional** — Mar del Plata Regional Faculty. The program provided a solid foundation in algorithms, data structures, programming paradigms, and software development, laying the groundwork for my professional career as a developer.`,
+        detailDesc: "UTN · Mar del Plata",
       },
     ],
     projects: {

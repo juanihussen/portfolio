@@ -62,7 +62,7 @@ const t = {
         period: "2022 — Presente",
         hoverDesc:
           "Cursando la tecnicatura en programación en la UTN Mar del Plata",
-        tags: ["C", "C++", "Java", "Python", "JavaScript", "SQL", "Git"],
+        tags: ["C", "Java", "SQL", "HTML", "JavaScript", "Python"],
         content: `Desde **2022** curso la **Tecnicatura Universitaria en Programación** en la **Universidad Tecnológica Nacional** — Facultad Regional Mar del Plata. Estoy cerca de recibirme, ya casi completo todas las materias. La carrera me brindó una base sólida en algoritmos, estructuras de datos, paradigmas de programación y desarrollo de software, sentando las bases para mi desempeño profesional como desarrollador.`,
         detailDesc: "UTN · Mar del Plata",
       },
@@ -188,7 +188,7 @@ const t = {
         period: "2022 — Present",
         hoverDesc:
           "Studying a programming degree at UTN Mar del Plata",
-        tags: ["C", "C++", "Java", "Python", "JavaScript", "SQL", "Git"],
+        tags: ["C", "Java", "SQL", "HTML", "JavaScript", "Python"],
         content: `Since **2022** I have been studying the **University Degree in Programming** at the **Universidad Tecnológica Nacional** — Mar del Plata Regional Faculty. I'm close to graduating, with almost all subjects completed. The program provided a solid foundation in algorithms, data structures, programming paradigms, and software development, laying the groundwork for my professional career as a developer.`,
         detailDesc: "UTN · Mar del Plata",
       },
